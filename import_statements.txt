@@ -1,0 +1,22 @@
+ require([
+        "esri/map",
+        "esri/dijit/Popup",
+        "esri/dijit/PopupTemplate",
+        "esri/layers/FeatureLayer",
+        "dojo/dom-class",
+        "dojo/dom-construct",
+        "dojo/on",
+        "dojox/charting/Chart",
+        "dojox/charting/themes/Dollar",
+        "dojo/domReady!"
+      ], function(
+        Map,
+        Popup,
+        PopupTemplate,
+        FeatureLayer,
+        domClass,
+        domConstruct,
+        on,
+        Chart,
+        theme
+      ){
