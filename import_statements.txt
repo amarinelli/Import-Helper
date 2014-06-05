@@ -1,8 +1,10 @@
+ 
  require([
         "esri/map", "esri/tasks/locator", "esri/graphic",
         "esri/dijit/Popup",
         "esri/dijit/PopupTemplate",
         "esri/layers/FeatureLayer",
+		
         "dojo/dom-class",
         "dojo/dom-construct",
         "dojo/on",
