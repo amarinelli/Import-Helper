@@ -1,5 +1,5 @@
  require([
-        "esri/map",
+        "esri/map", "esri/tasks/locator", "esri/graphic",
         "esri/dijit/Popup",
         "esri/dijit/PopupTemplate",
         "esri/layers/FeatureLayer",
@@ -10,7 +10,7 @@
         "dojox/charting/themes/Dollar",
         "dojo/domReady!"
       ], function(
-        Map,
+        Map, Locator, Graphic,
         Popup,
         PopupTemplate,
         FeatureLayer,
