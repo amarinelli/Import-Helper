@@ -1,24 +1,15 @@
- 
- require([
+require([
         "esri/map", "esri/tasks/locator", "esri/graphic",
-        "esri/dijit/Popup",
-        "esri/dijit/PopupTemplate",
-        "esri/layers/FeatureLayer",
-		
-        "dojo/dom-class",
-        "dojo/dom-construct",
-        "dojo/on",
-        "dojox/charting/Chart",
-        "dojox/charting/themes/Dollar",
+        "esri/InfoTemplate", "esri/symbols/SimpleMarkerSymbol",
+        "esri/symbols/Font", "esri/symbols/TextSymbol",
+        "dojo/_base/array", "esri/Color",
+        "dojo/number", "dojo/parser", "dojo/dom", "dijit/registry",
+
+        "dijit/form/Button", "dijit/form/Textarea",
         "dojo/domReady!"
       ], function(
         Map, Locator, Graphic,
-        Popup,
-        PopupTemplate,
-        FeatureLayer,
-        domClass,
-        domConstruct,
-        on,
-        Chart,
-        theme
-      ){
+        InfoTemplate, SimpleMarkerSymbol, 
+        Font, TextSymbol,
+        arrayUtils, Color,
+        number, parser, dom, registry
