@@ -6,10 +6,12 @@ require([
         "dojo/number", "dojo/parser", "dojo/dom", "dijit/registry",
 
         "dijit/form/Button", "dijit/form/Textarea",
-        "dojo/domReady!"
+        "dijit/layout/BorderContainer", "dijit/layout/ContentPane", "dojo/domReady!"
       ], function(
         Map, Locator, Graphic,
         InfoTemplate, SimpleMarkerSymbol, 
         Font, TextSymbol,
         arrayUtils, Color,
         number, parser, dom, registry
+      ) {
+        parser.parse();
