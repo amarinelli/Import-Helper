@@ -14,4 +14,4 @@ require([
         arrayUtils, Color,
         number, parser, dom, registry
       ) {
-        parser.parse();
+		parser.parse();
